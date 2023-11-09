@@ -1,0 +1,144 @@
+:root {
+  --primary: #5350FF;
+  --secondary: #4777F5;
+  --light: #F7FAFF;
+  --dark: #1D1D27;
+}
+
+
+body{
+  font-family: "Poppins", sans-serif;
+}
+
+.title {
+  width: 750px;
+  color: rgba(0, 0, 0, 0.75);
+}
+.title p {
+  font-size: 64px;
+}
+.title .title_sub {
+  font-size: 16px;
+  width: 490px;
+}
+.title .title div {
+  width: 500px;
+  height: 100px;
+  background: #FBFF38;
+  position: absolute;
+  z-index: -1;
+  margin: 100px 0 0 110px;
+}
+
+footer {
+  color: white;
+  width: 100%;
+  background: #5350FF;
+  padding: 30px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-wrap: wrap;
+}
+footer .footer_brand {
+  margin: 0 150px 0 50px;
+}
+footer .footer_brand .footer_sub {
+  width: 250px;
+}
+footer .footer_content {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-wrap: wrap;
+}
+footer .footer_content .content {
+  margin: 0 50px 0 20px;
+  display: inline-block;
+  width: 250px;
+}
+footer .footer_content .content ul {
+  list-style-type: none;
+}
+footer .footer_content .content ul li {
+  margin-top: 20px;
+}
+footer .footer_content .content ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: ease 0.2s;
+}
+footer .footer_content .content ul li a:hover {
+  color: rgb(210, 210, 210);
+}
+
+@media (max-width: 990px) {
+  .slash {
+    display: none;
+  }
+}/*# sourceMappingURL=about.css.map */
+
+#portfolio-flters .btn {
+  position: relative;
+  display: inline-block;
+  margin: 10px 4px 0 4px;
+  transition: .5s;
+}
+
+#portfolio-flters .btn::after {
+  position: absolute;
+  content: "";
+  right: -1px;
+  bottom: -1px;
+  border-left: 20px solid transparent;
+  border-right: 0 solid transparent;
+  border-bottom: 50px solid #FFFFFF;
+}
+
+#portfolio-flters .btn:hover,
+#portfolio-flters .btn.active {
+  color: var(--light);
+  background: var(--primary);
+}
+
+.portfolio-overlay {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  top: 0;
+  left: 0;
+  background: var(--primary);
+  transition: .5s;
+  z-index: 1;
+  opacity: 0;
+}
+
+.portfolio-item:hover .portfolio-overlay {
+  opacity: 1;
+}
+
+.portfolio-item .btn {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  top: 0px;
+  right: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../img/icon-shape-white.png) center center no-repeat;
+  border: none;
+  transition: .5s;
+  opacity: 0;
+  z-index: 2;
+}
+
+.portfolio-item:hover .btn {
+  opacity: 1;
+  transition-delay: .15s;
+}
