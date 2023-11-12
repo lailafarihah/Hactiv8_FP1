@@ -1,0 +1,63 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f8f9fa;
+}
+
+p {
+    font-size: 18px;  
+}
+
+h1 {
+    font-size: 65px;  
+}
+
+h2 {
+    font-size: 45px;  
+}
+
+h3 {
+    font-size: 30px;  
+}
+
+h4 {
+    font-size: 20px;  
+}
+
+.content_contact{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.judul{
+    margin-bottom: 90px;
+}
+
+.create{
+    margin-top: 30px;
+    align-items: center;
+
+}
+
+.kontak{
+    align-items: center;
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    border: 1px solid #7c7d7c;
+}
+
+.btn{
+    color: #fff;
+}
+
+#get{
+    color: #fff;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+
+
+ 

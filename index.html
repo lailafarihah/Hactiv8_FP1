@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="./assets/sass/about.scss" />
+    <link rel="stylesheet" href="./assets/sass/about.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Webinov | Home</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bolder fs-2 mb-1 ms-3" href="#">Webinov</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav mb-1 mb-lg-0 end">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/portfolio.html">Portofolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="todos.html">Todos</a>
+            </li>
+            <li class="nav-item">
+              <a href="./pages/about.html" class="nav-link">About us</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="./pages/contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav me-2 mb-1"></ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- package -->
+    <section class="p-3 shadow align-items-center" id="package-section">
+      <div class="container-fluid p-3 bg-light w-75 rounded">
+        <table class="table table-bordered m-auto">
+          <thead class="table table-primary fs-5">
+            <tr>
+              <th scope="col">Features</th>
+              <th scope="col">Start Up</th>
+              <th scope="col">Business</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Price</th>
+              <td class="lowPrice">250000</td>
+              <td class="highPrice">500000</td>
+            </tr>
+            <tr>
+              <th scope="row">Free Domain .com</th>
+              <td>✅</td>
+              <td>✅</td>
+            </tr>
+            <tr>
+              <th scope="row">Cloud Hosting Unlimited</th>
+              <td>✅</td>
+              <td>✅</td>
+            </tr>
+            <tr>
+              <th scope="row">Responsive</th>
+              <td>✅</td>
+              <td>✅</td>
+            </tr>
+            <tr>
+              <th scope="row">SEO Friendly</th>
+              <td>✅</td>
+              <td>✅</td>
+            </tr>
+            <tr>
+              <th scope="row">Priority Support</th>
+              <td>❌</td>
+              <td>✅</td>
+            </tr>
+            <tr>
+              <th scope="row">Unlimited Free SSL</th>
+              <td>❌</td>
+              <td>✅</td>
+            </tr>
+            <tr>
+              <th scope="row">Unlimited Bandwith</th>
+              <td>❌</td>
+              <td>✅</td>
+            </tr>
+            <tr>
+              <th></th>
+              <td>
+                <a href="todos.html"><button id="startupBtn" class="btn btn-primary">Order</button></a>
+              </td>
+              <td>
+                <a href="todos.html"><button id="businessBtn" class="btn btn-primary">Order</button></a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- hero -->
+    <section class="bg-light" id="hero-section">
+      <div class="container-fluid text-center">
+        <h1 style="background-color: #fbff38cc; display: inline"><b>Inovation Your Website Professionally</b></h1>
+
+        <p class="w-auto m-auto my-4">Webinov is a web tool that help you for creating beutiful website with professional quality design. Everything you need is all here for your own company</p>
+      </div>
+      <div class="row align-items-start">
+        <div class="col-lg-7">
+          <img src="./assets/img/example product.png" class="img-fluid" alt="example" />
+        </div>
+        <div class="col-lg-5 p-3 searchForm">
+          <div class="border p-5">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2 rounded-pill search_category" type="search" placeholder="Search Blog" aria-label="Search" />
+              <button class="btn btn-outline-success rounded-pill" type="submit">Search</button>
+            </form>
+            <div class="category_box">
+              <!-- <button class="btn btn-outline-dark">Personal Blog</button>
+              <button class="btn btn-outline-dark">Company Blog</button>
+              <button class="btn btn-outline-dark">Travel Blog</button>
+              <button class="btn btn-outline-dark">Organizing Blog</button> -->
+            </div>
+          </div>
+          <button type="button" class="btn btn-primary btn-lg rounded-pill" id="getStart">Get Started</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- features -->
+    <section class="container-fluid text-light" id="features-section">
+      <div class="row mb-5">
+        <div class="col-lg-6">
+          <h2>Design Once, Runs Everywhere</h2>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row gx-lg-5 align-items-start p-lg-5 p-sm-3 border border-light rounded-3">
+          <div class="col-lg-4">
+            <h5 class="card-title">Free +1200 Template</h5>
+            <p class="card-text">Get your free +1200 template for your website design, and recreate it with your own creativity</p>
+          </div>
+          <div class="col-lg-4">
+            <h5 class="card-title">Auto Responsive Design</h5>
+            <p class="card-text">Eassly make responsive website just only one click and your website is run on every device</p>
+          </div>
+          <div class="col-lg-4">
+            <h5 class="card-title">Growth Your Professional Design</h5>
+            <p class="card-text">Create your own template and share to others</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- offer -->
+    <section id="offer-section">
+      <div class="row align-items-center">
+        <div class="col-lg-5 text-sm-center">
+          <h2 class="mb-lg-5">From Beginner to Professional Designer</h2>
+
+          <ul>
+            <li>Custom domain</li>
+            <li>Easy to use</li>
+            <li>Create your own template</li>
+            <li>2000+ free component</li>
+            <li>100 free extension</li>
+          </ul>
+        </div>
+        <div class="col-lg-7 text-center">
+          <img src="./assets/img/example product 2.png" class="img-fluid" alt="example2" />
+        </div>
+      </div>
+    </section>
+
+    <!-- template example -->
+    <section class="p-5" id="template-section">
+      <div class="container-fluid text-center text-light">
+        <h2 class="">1200+ Website Template</h2>
+        <p class="w-50 m-auto my-4">Over 1200+ template for your website and you can recreat it freely beyond on your creativity</p>
+      </div>
+      <!-- carousel -->
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2100">
+            <div class="d-flex justify-content-between">
+              <img src="/assets/img/image 6.png" class="w-md-50 p-md-5 img-fluid" alt="Slide 1" />
+              <img src="/assets/img/image 7.png" class="w-md-50 p-md-5 img-fluid" alt="Slide 2" />
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2100">
+            <div class="d-flex justify-content-between">
+              <img src="/assets/img/image 8.png" class="w-md-50 p-md-5 img-fluid" alt="Slide 3" />
+              <img src="/assets/img/image 9.png" class="w-md-50 p-md-5 img-fluid" alt="Slide 4" />
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2100">
+            <div class="d-flex justify-content-between">
+              <img src="/assets/img/image 10.png" class="w-md-50 p-md-5 img-fluid" alt="Slide 5" />
+              <img src="/assets/img/image 6.png" class="w-md-50 p-md-5 img-fluid" alt="Slide 6" />
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- why -->
+    <section class="container-fluid" id="why-section">
+      <div class="row align-items-center gx-5 text-light">
+        <div class="col-lg-6 text-start px-5">
+          <h2>Why You Should Use Webinov</h2>
+        </div>
+        <div class="col-lg-6 px-5">
+          <p>Webinov is easy to work, you dont need to learn any language such a HTML, CSS or Javascript for building your own websites</p>
+          <p>It is easy to use for beginer who just jump into designing work. But if you have trouble we have video tutorial officaly by Webinov</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- register -->
+    <section class="container-fluid" id="register-section">
+      <form class="row g-3">
+        <div class="col">
+          <div class="border p-5">
+            <h4>Register Now</h4>
+            <div>
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" />
+            </div>
+            <div>
+              <label for="inputPassword4" class="form-label">Password</label>
+              <input type="password" class="form-control" id="inputPassword4" />
+            </div>
+            <div>
+              <label for="inputPassword4" class="form-label">Verfication Password</label>
+              <input type="password" class="form-control" id="verificationPassword4" />
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg text-black rounded-pill mt-4">Sign in</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- footer -->
+    <footer class="justify-content-center">
+      <div class="footer_brand mt-3">
+        <p class="fs-2 fw-bold">Webinov</p>
+        <div class="footer_sub">
+          <p>Webinov is a web tool that help you for creating beutiful website with professional quality design. Everything you need is all here for your own company</p>
+        </div>
+      </div>
+      <div class="footer_content">
+        <div class="content">
+          <ul>
+            <li>
+              <h3>Product</h3>
+            </li>
+            <li>
+              <a href="#">Website Builder</a>
+            </li>
+            <li>
+              <a href="#">Website Template</a>
+            </li>
+            <li>
+              <a href="#">Website Design</a>
+            </li>
+            <li>
+              <a href="#">Web Hosting</a>
+            </li>
+            <li>
+              <a href="#">Domain</a>
+            </li>
+            <li>
+              <a href="#">Webinov Features</a>
+            </li>
+          </ul>
+        </div>
+        <div class="content">
+          <ul>
+            <li>
+              <h3>Use Case</h3>
+            </li>
+            <li>
+              <a href="#">Online Store Website</a>
+            </li>
+            <li>
+              <a href="#">Online Booking Website</a>
+            </li>
+            <li>
+              <a href="#">Restaurant Website</a>
+            </li>
+            <li>
+              <a href="#">Blog Website</a>
+            </li>
+            <li>
+              <a href="#">Portofolio Website</a>
+            </li>
+            <li>
+              <a href="#">Student Website</a>
+            </li>
+          </ul>
+        </div>
+        <div class="content">
+          <ul>
+            <li>
+              <h3>Support</h3>
+            </li>
+            <li>
+              <a href="#">Help Center</a>
+            </li>
+            <li>
+              <a href="#">Report</a>
+            </li>
+            <li>
+              <a href="#">Be Our Developer</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
