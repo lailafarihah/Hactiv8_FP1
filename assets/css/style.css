@@ -125,4 +125,14 @@ footer .footer_content .content ul li a {
   h2 {
     font-size: 45px;
   }
+  .package-content {
+    margin: 0;
+  }
+  .todos {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+  .todos table {
+    font-size: 12px !important;
+  }
 }
